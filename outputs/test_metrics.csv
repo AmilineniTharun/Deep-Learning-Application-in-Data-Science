@@ -1,0 +1,2 @@
+test_accuracy,macro_precision,macro_recall,macro_f1,training_majority_baseline_accuracy
+0.9777777777777777,0.9781859258639445,0.9776147576147576,0.9776799432958951,0.10155610155610155

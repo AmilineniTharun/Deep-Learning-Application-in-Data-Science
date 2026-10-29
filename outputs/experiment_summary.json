@@ -1,0 +1,26 @@
+{
+  "dataset": "scikit-learn Digits",
+  "samples": 1797,
+  "input_features": 64,
+  "classes": 10,
+  "split": {
+    "train": 1221,
+    "validation": 216,
+    "test": 360,
+    "random_state": 42
+  },
+  "architecture": "64 -> 128 ReLU Dropout(0.20) -> 64 ReLU Dropout(0.15) -> 10 logits",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "batch_size": 64,
+  "epochs_completed": 60,
+  "best_validation_loss": 0.06546975672245026,
+  "metrics": {
+    "test_accuracy": 0.9777777777777777,
+    "macro_precision": 0.9781859258639445,
+    "macro_recall": 0.9776147576147576,
+    "macro_f1": 0.9776799432958951,
+    "training_majority_baseline_accuracy": 0.10155610155610155
+  }
+}
